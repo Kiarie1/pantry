@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.thepantry.ThePantry">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo"/>
+
+    <ImageView
+        android:id="@+id/partycrowd"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@id/logo"
+        android:src="@drawable/pantrycrowd"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/howtogethelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:layout_below="@id/partycrowd"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border_round"
+        android:text="How to get help"
+        />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/howtogethelp"
+        android:text="The Pantry is a community food ministry located in Douglasville, GA. We are open Saturdays from 9AM until 11:30AM and we provide free canned goods and other food items to local families in need."/>
+
+    <TextView
+        android:id="@+id/howtohelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border_round"
+        android:text="How to help"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_below="@id/howtohelp"
+        android:text="The Pantry needs not only financial support but also support from volunteers that can lend a hand on Saturdays or join our long-term team in providing key logistical support."
+        />
+
+    <TextView
+        android:id="@+id/howtodonate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:layout_below="@id/text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/border_round"
+        android:text="How to donate"
+        />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/howtodonate"
+        android:text="The Pantry works hard to responsibly and strategically stretch every dollar we receive! Give online through our secure link and know that each dollar goes to feed a needy family in our local community."
+        />
+   <TextView
+    android:id="@+id/phone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-condensed"
+    android:textSize="12sp"
+    android:layout_below="@id/text3"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="16dp"
+    android:text="770-217-0729"
+       />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="10sp"
+        android:layout_below="@id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="8dp"
+        android:text="9633 GA-5, Douglasville, GA 30135"
+
+        />
+
+    <Button
+        android:id="@+id/buttonred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonred"
+        android:textSize="14sp"
+        android:text="Subscribe"
+        />
+
+    <Button
+        android:id="@+id/buttonblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/buttonblue"
+        android:textSize="14sp"
+        android:text="Facebook"
+        />
+
+</RelativeLayout>
